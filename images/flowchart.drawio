@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" modified="2023-06-06T10:41:49.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="CbCPXiYz4a4icX1_izXZ" version="21.3.7" type="device">
+  <diagram name="Страница 1" id="Q8xg8L7mK1qZ_bQ29t9b">
+    <mxGraphModel dx="1313" dy="1873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-7" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-1" target="-PJUXYWoCrfdYMZwAgKB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-1" value="k3s-server-01.lab.lan&lt;div&gt;Сервер k3s&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-8" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-2" target="-PJUXYWoCrfdYMZwAgKB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-2" value="&lt;div&gt;k3s-server-02.lab.lan&lt;/div&gt;&lt;div&gt;Сервер k3s&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-19" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-4" target="-PJUXYWoCrfdYMZwAgKB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-20" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-4" target="-PJUXYWoCrfdYMZwAgKB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-4" value="&lt;div&gt;k3s-db-balancer-01.lab.lan&lt;/div&gt;&lt;div&gt;Балансировщик БД&lt;/div&gt;&lt;div&gt;keepalived&lt;/div&gt;&lt;div&gt;HAProxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-21" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-5" target="-PJUXYWoCrfdYMZwAgKB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-22" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-5" target="-PJUXYWoCrfdYMZwAgKB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-5" value="&lt;div&gt;k3s-db-balancer-02.lab.lan&lt;/div&gt;&lt;div&gt;Балансировщик БД&lt;/div&gt;&lt;div&gt;keepalived&lt;/div&gt;&lt;div&gt;HAProxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-12" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-6" target="-PJUXYWoCrfdYMZwAgKB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-13" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=classic;endFill=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-6" target="-PJUXYWoCrfdYMZwAgKB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-6" value="&lt;div&gt;k3s-db-balancer.lab.lan&lt;/div&gt;&lt;div&gt;Плавающий IP&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-18" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-14" target="-PJUXYWoCrfdYMZwAgKB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-23" value="Репликация" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" connectable="0" parent="-PJUXYWoCrfdYMZwAgKB-18">
+          <mxGeometry x="-0.275" y="2" relative="1" as="geometry">
+            <mxPoint x="22" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-14" value="&lt;div&gt;k3s-db-01.lab.lan&lt;/div&gt;&lt;div&gt;Сервер БД&lt;/div&gt;&lt;div&gt;MySQL&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-24" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-15" target="-PJUXYWoCrfdYMZwAgKB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-15" value="&lt;div&gt;k3s-db-02.lab.lan&lt;/div&gt;&lt;div&gt;Сервер БД&lt;/div&gt;&lt;div&gt;MySQL&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-32" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-25" target="-PJUXYWoCrfdYMZwAgKB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-33" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-25" target="-PJUXYWoCrfdYMZwAgKB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-25" value="&lt;div&gt;k3s-balancer-01.lab.lan&lt;/div&gt;&lt;div&gt;Балансировщик серверов&lt;/div&gt;&lt;div&gt;keepalived&lt;/div&gt;&lt;div&gt;HAProxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-34" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-26" target="-PJUXYWoCrfdYMZwAgKB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-35" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;dashed=1;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-26" target="-PJUXYWoCrfdYMZwAgKB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-26" value="&lt;div&gt;k3s-balancer-02.lab.lan&lt;/div&gt;&lt;div&gt;Балансировщик серверов&lt;/div&gt;&lt;div&gt;keepalived&lt;/div&gt;&lt;div&gt;HAProxy&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-36" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-27" target="-PJUXYWoCrfdYMZwAgKB-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-37" style="edgeStyle=none;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-27" target="-PJUXYWoCrfdYMZwAgKB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-27" value="&lt;div&gt;k3s-balancer.lab.lan&lt;/div&gt;&lt;div&gt;Плавающий IP&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-45" style="edgeStyle=none;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-38" target="-PJUXYWoCrfdYMZwAgKB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-38" value="&lt;div&gt;k3s-agent-01.lab.lan&lt;/div&gt;Агент k3s" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-44" style="edgeStyle=none;shape=connector;rounded=1;sketch=1;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-39" target="-PJUXYWoCrfdYMZwAgKB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-39" value="&lt;div&gt;k3s-agent-02.lab.lan&lt;/div&gt;Агент k3s" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-43" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;strokeColor=#E07A5F;fontStyle=1;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-40" target="-PJUXYWoCrfdYMZwAgKB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-40" value="&lt;div&gt;k3s-agent-0n.lab.lan&lt;/div&gt;Агент k3s" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-42" style="rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.738;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;labelBackgroundColor=none;strokeColor=#E07A5F;fontStyle=1;" edge="1" parent="1" source="-PJUXYWoCrfdYMZwAgKB-41" target="-PJUXYWoCrfdYMZwAgKB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-41" value="&lt;div&gt;Пользователь&lt;/div&gt;&lt;div&gt;Администратор всея k3s&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PJUXYWoCrfdYMZwAgKB-47" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-70" width="50" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
